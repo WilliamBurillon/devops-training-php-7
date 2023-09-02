@@ -7,4 +7,8 @@ ini_set('display_errors', 1);
 require 'includes/config.php';
 require 'includes/functions.php';
 
+if(0 != "foo") {
+    throw new ErrorException("ça marche pas en php 8"); 
+}
+
 init();

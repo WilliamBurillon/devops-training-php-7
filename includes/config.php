@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'On va faire genre que ce site est le site DataHive',
         'site_url' => '',
         'pretty_uri' => false,
         'nav_menu' => [

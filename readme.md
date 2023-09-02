@@ -1,32 +1,36 @@
-# Simple PHP Website
+# Simple PHP 7.4 Project for DevOps Training
+## Introduction
+Welcome to this simple PHP 7.4 project! This project serves as a support tool to help students understand the basics of deploying a PHP application in a production environment. This is a part of our DevOps training curriculum. It's a very straightforward project, built with educational purposes in mind.
 
-I put together this project while introducing a friend of mine to PHP. I decided to clean it up a bit and put it on Github so anyone new to PHP can have a taste of a **very simple and minimal** website built with PHP.
+## Prerequisites
+1. PHP 7.4 or higher installed on your machine. You can download and install it from here.
+2. Basic knowledge of terminal commands.
+3. Text editor for code (e.g., Visual Studio Code, Sublime Text, etc.).
+## Installation & Running Locally
+### Clone the Repository
+First, clone this repository to your local machine using git:
 
-This project is meant for beginners. I've intentionally kept it minimal while introducing some [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns).
+```
+git clone https://github.com/YourUsername/YourRepoName.git
+```
+Navigate into the project directory:
 
-## Installation
+```
+cd YourRepoName
+````
 
-There are only two steps to run this website:
+### Running the Project
+To run the project locally, you will utilize PHP's built-in web server. The built-in server is sufficient for development and testing but should not be used in production.
 
-1. Download the project to the desired directory on your computer
-2. Run  `php -S localhost:8080` on your terminal. Navigate to http://localhost:8080 to see the site.
+Execute the following command to start the PHP built-in web server:
 
-By defaut, the page URLs use query strings (*?page=about*). You need to have Apache installed for pretly URLs (*/about*) to work. To activate pretty urls, update config value of `pretty_uri` to `true`.
+```
+php -S localhost:8080
+```
+Once you run this command, the terminal should display a message like:
 
-## Concepts
+```
+Listening on http://localhost:8080
+```
+Open your web browser and navigate to `http://localhost:8080` to see the project running.
 
-The project covers these programming concepts:
-
- * Variables
- * Arrays
- * Functions
- * Pretty links *(/about) with fallback to query string (?page=about)*
- * Basic example of separation of concerns *(functionality, template, content)*
-
-If you have any questions or recommendations for the project, please [create an issue](https://github.com/banago/simple-php-website/issues/new) or hit me up on Twitter [@banago](https://twitter.com/banago).
-
-> To help you take your knowledge of PHP to the next level, I've personally hunt down what I deem to be the best introductory course on PHP out there. I wish this course existed when I started learing PHP. Check it out on Udemy: [PHP for Beginners Course](https://click.linksynergy.com/link?id=jTy10g8O/M8&offerid=507388.1576856&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fphp-for-beginners-%2F).
-
-## License
-
-MIT
