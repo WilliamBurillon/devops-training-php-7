@@ -11,7 +11,7 @@ Welcome to this simple PHP 7.4 project! This project serves as a support tool to
 First, clone this repository to your local machine using git:
 
 ```
-git clone https://github.com/YourUsername/YourRepoName.git
+git clone https://github.com/WilliamBurillon/devops-training-php-7.git
 ```
 Navigate into the project directory:
 
